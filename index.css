@@ -1,0 +1,314 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    color: white;
+}
+hr{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(145, 140, 140);
+    border: none;
+    z-index: 9990;
+    margin-top: -5px;
+}
+.main-head{
+    width: 100%;
+    height: 700px;
+    background-image: url(netflix-poster/bg-poster.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+/* header nav */
+.header-nav{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+#btn-1{
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+#btn-2 button{
+    background-color: red;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+.logos img{
+    width: 150px;
+}
+
+
+/* .logos{
+   padding-top: 30px;
+   padding-left: 300px;
+   
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding-left: 800px;
+    gap: 70px;
+    position: absolute;
+    top: 30px;
+}
+#button-1{
+    background-color: transparent;
+    color: white;
+    padding: 10px 50px;
+    border:  solid white 1px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+#button-2{
+    padding: 10px 30px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#button-2:hover{
+    transform: scale(0.9) rotate(3deg);
+    transition: 0.3s;
+    background-color: rgb(223, 10, 10);
+} */
+
+
+.heading-text{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.heading-text h1{
+    font-size: 40px;
+    font-weight: 1000;
+
+}
+.heading-text h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+.search-bar{
+   text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    gap: 5px;
+}
+.search-bar input{
+    width: 50%;
+    height: 50px;
+    /* padding: 15px 10px; */
+    border: 1px solid white;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.search-bar ::placeholder{
+    color: white;
+}
+.search-bar a{
+    width: 10%;
+   
+    color: white;
+    background-color: red;
+    padding: 15px 0;
+    border:  solid white  1px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.search-bar a:hover{
+    background-color: rgb(196, 9, 9);
+}
+.enjoy-tv{
+    width: 75%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.tv-text h1{
+    font-size: 50px;
+}
+.tv-image img{
+    width: 100%;
+}
+.download{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+.download-imag img{
+    width: 70%;
+}
+.box{
+    background-color: black;
+    padding: 2px 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border: solid rgb(186, 184, 184) 1px;
+    border-radius: 10px;
+
+
+}
+.box-text h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+.box-text p{
+    color: blue;
+}
+.box{
+    align-items: center;
+    width: 80%;
+}
+.box-imag{
+    width: 20%;
+}
+.box-imag img{
+width: 50px;
+}
+.download{
+    align-items: center;
+}
+.download-text h1{
+    font-size: 50px;
+}
+.watch-everywhere{
+    width: 75%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.watch-image img{
+    width: 90%;
+}
+.watch-everywhere h1{
+    font-size: 50px;
+}
+.profiles-kids{
+    width: 75%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.profiles-kids h1{
+    font-size: 50px;
+}
+.profiles-kids img{
+    width: 100%;
+}
+.questions{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.questions h1{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.question-list{
+    text-align: left;
+}
+
+.email{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.netflix-footer{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    gap: 60px;
+    margin-top: 100px;
+}
+.netflix-footer a{
+    color: white;
+    text-decoration: none;
+
+}
+/*8888888888888888888888888888888888*/
+.accordion-flush{
+    background-color: #000000;
+    color: white;
+    width: 80%;
+    margin: auto;
+   
+}
+.accordion-button{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    height: 80px;
+    font-size: 25px;
+}
+
+.accordion-item{
+    border-color: black;
+}
+.accordion-button:focus, .accordion-button:visited{
+    box-shadow: none;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+.accordion-body{
+    background-color: rgb(61, 61, 61);
+    color: #fff;
+    font-size: 25px;
+}
+
+
